@@ -1,0 +1,32 @@
+.risbl-admin-tabs-wrapper {
+    margin-bottom: 5px;
+    padding: 3px 5px;
+    background: #fff;
+    border-radius: 8px;    
+}
+
+.risbl-admin-tabs-wrapper a {
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.risbl-admin-tabs-wrapper .separator {
+    color: #b5b5b5;   
+}
+
+.risbl-admin-tabs-wrapper .current-page {
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+.risbl-admin-field-group .risbl-admin-field-wrap {
+    margin-bottom: 10px;
+}
+
+.risbl-admin-field-group .risbl-admin-field-wrap > label {
+    margin-right: 10px;
+}
