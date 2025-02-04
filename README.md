@@ -1,0 +1,2 @@
+# risbl-admin
+A developer tool for plugin features administration panel UI (user interface) creation.
