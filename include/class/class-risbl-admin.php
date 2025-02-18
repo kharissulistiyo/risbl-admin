@@ -33,8 +33,8 @@ if( !class_exists('Risbl_Admin') ) :
             $this->page_args = [
                 'parent_admin'      => '',
                 'parent_admin_slug' => '',
-                'page_title'        => 'Default Admin',
-                'menu_title'        => 'Default Admin',
+                'page_title'        => __('Risbl Admin', 'risbl-admin'),
+                'menu_title'        => __('Default Admin', 'risbl-admin'),
                 'capability'        => 'manage_options',
                 'menu_slug'         => 'default-admin',
                 'icon_url'          => '',
@@ -82,7 +82,7 @@ if( !class_exists('Risbl_Admin') ) :
 
             wp_enqueue_media();
             
-            wp_enqueue_script('risbl-admin-script', $js_url, array('jquery', 'wp-color-picker'), '1.0', true);
+            wp_enqueue_script('risbl-admin-script', $js_url, array('wp-i18n', 'jquery', 'wp-color-picker'), '1.0', true);
 
         }
 

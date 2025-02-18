@@ -1,5 +1,7 @@
 jQuery(document).ready(function ($) {
 
+    const { __, _x, _n, _nx } = wp.i18n;
+
     if ($('.risbl-admin-color-picker').length) {
         $('.risbl-admin-color-picker').each(function () {
             $(this).wpColorPicker();
@@ -15,9 +17,9 @@ jQuery(document).ready(function ($) {
 
             // Create or reuse the media frame
             var frame = wp.media({
-                title: 'Select or Upload Media',
+                title: __('Select or Upload Media', 'risbl-admin'),
                 button: {
-                    text: 'Use this media',
+                    text: __('Use this media', 'risbl-admin'),
                 },
                 multiple: false,
                 library: {
